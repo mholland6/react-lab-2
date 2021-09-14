@@ -1,0 +1,28 @@
+.PostInList {
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.PostInList--Post {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .PostInList--Text {
+
+} */
+
+.PostInList--TitleText {
+  font-size: 24px;
+}
+
+.PostInList--Button {
+  align-items: right;
+}
+
+.PostInList--DeletePostButton {
+  color: black;
+}

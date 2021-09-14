@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Homemade+Apple&display=swap');
+
+.SocialPosts {
+  width: 70%;
+  max-width: 600px;
+}
+
+.SocialPosts--H1 {
+  font-family: "Homemade Apple";
+  text-align: center;
+  color:#03a9f4;
+}
+
+.Modal.Displayed {
+  display: block;
+}
+
+.ModalDisplayButton {
+  width: 100%;
+  color: white;
+  background-color: #03a9f4 ;
+  font-family: Dosis;
+}
+
+/* The Modal (background) */
+.Modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+
+/* Modal Content */
+.ModalForm {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  
+  width: 50%;
+} 
