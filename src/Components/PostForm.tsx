@@ -2,9 +2,11 @@ import "./PostForm.css";
 import Post from "../models/Post";
 import { FormEvent, useState } from "react";
 import displayModal from "../Components/SocialPosts"
+import { VoidExpression } from "typescript";
 
 interface Props {
   onSubmit: (post: Post) => void;
+  onClose: () => void;
 }
 
 function PostForm({ onSubmit }: Props) {
@@ -30,6 +32,7 @@ function PostForm({ onSubmit }: Props) {
 
   return (
     <div className="ModalForm2">
+    <button className="ModalCloseButtonInsideForm" type="button">&times;</button>  
     <form className="PostForm" onSubmit={handleSubmit}>
       
       <p>

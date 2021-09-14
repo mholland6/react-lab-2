@@ -1,3 +1,7 @@
 .CloseModalButton {
   float: right;
 }
+
+.ModalCloseButtonInsideForm {
+  float: right;
+}
